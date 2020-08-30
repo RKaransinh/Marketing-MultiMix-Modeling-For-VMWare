@@ -11,8 +11,8 @@ knitr::opts_chunk$set(echo = TRUE)
 ```{r 1}
 
 #-----------------------------------------------------------------------------------------------------------
-training_path="C:/Users/karan/iCloudDrive/i UIC MSBA/Actual Academics/Semester 1/IDS 572 Data Mining for Business/Assignments/HW3/Data/Training.csv"
-validation_path="C:/Users/karan/iCloudDrive/i UIC MSBA/Actual Academics/Semester 1/IDS 572 Data Mining for Business/Assignments/HW3/Data/Validation.csv"
+training_path="C:/Users/karan/Documents/Marketing-MultiMix-Modeling-For-VMWare/Training.csv"
+validation_path="C:/Users/karan/Documents/Marketing-MultiMix-Modeling-For-VMWare/Validation.csv"
 Training <- read.csv(training_path)
 Validation<-read.csv(validation_path)
 library(dplyr)
@@ -214,7 +214,7 @@ View(colnames(burato_op_num))
 
 ### Burato Outpur Showing Feature Importance:
 ```{r c, out.width="32.8%", fig.show="hold"}
-knitr::include_graphics("C:/Users/karan/iCloudDrive/i UIC MSBA/Actual Academics/Semester 1/IDS 572 Data Mining for Business/Assignments/HW3/Data/plot_zoom_png.png")
+knitr::include_graphics("C:/Users/karan/Documents/Marketing-MultiMix-Modeling-For-VMWare/plot_zoom_png.png")
 ```
 
 ```{r d}
