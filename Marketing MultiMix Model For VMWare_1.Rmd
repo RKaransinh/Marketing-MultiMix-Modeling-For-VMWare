@@ -1,5 +1,7 @@
 ---
 title: "Marketing MultiMix Model For VMWare"
+author: "Karansinh Raj"
+date: "8/30/2020"
 output: html_document
 ---
 
